@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
-    <script src="sketch.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Recreation</title>
     <style>
-      * {
-        box-sizing: border-box;
-      }
-      html, body {
-        margin: 0;
-      }
-      canvas {
-        display: block;
-      }
-      #main {
-        display: block;
-        width: 100%;
-        height: 100vh;
-      }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            margin: 0;
+        }
+        canvas {
+            border: 1px solid black;
+        }
     </style>
-  </head>
-  <body>
-    <main id="main"></main>
-  </body>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+
+    <script src="sketch.js"></script>
+</body>
 </html>
