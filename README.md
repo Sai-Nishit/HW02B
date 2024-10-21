@@ -1,6 +1,6 @@
 
 Output:  
-![image description](Hw02A.png)
+![image description](Hw02B.png)
 
 
 
