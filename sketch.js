@@ -1,7 +1,7 @@
 function setup() {
     createCanvas(500, 500);
-    background(255); 
-    noLoop(); 
+    background(255); // Set background to white
+    noLoop(); // Prevent continuous drawing
   
     const swappedRhombuses = [
       [{x: 100, y: 150}, {x: 250, y: 250}, {x: 100, y: 350}, {x: 50, y: 300}],
